@@ -12,7 +12,7 @@
 <h1 align="center">Welcome to Landmark Technologies.</h1>
 <h2 align="center"> We are supporting the Tesla web app project.
 	Landmark Technologies is a software development company. 
-	Class29 will run from July 9, 2022.
+	Class29 will run from July 12, 2022.
 	The shout of the King Jesus is in our midst. HE IS OUR SUCCESS ACCESS KEY</h2>
 <hr>
 <div style="text-align: center;">
