@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('codeCloning'){
             steps{
-                git 'https://github.com/Olakenny/maven-web-application.git'
+                git credentialsId: 'githubcred', url: 'https://github.com/Olakenny/maven-web-application.git'
             }
         }
         stage('test&build'){
@@ -29,7 +29,7 @@ pipeline{
         */
         stage('deployToProd'){
             steps{
-                deploy adapters: [tomcat8(credentialsId: 'tomcat2-credential', path: '', url: 'http://52.90.92.180:8080/')], contextPath: null, war: 'target/*war'
+                deploy adapters: [tomcat8(credentialsId: 'tomcat2-credential', path: '', url: 'http://34.227.150.229:8080/')], contextPath: null, war: 'target/*war'
             }
         }
         
