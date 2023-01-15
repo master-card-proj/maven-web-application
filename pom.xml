@@ -7,12 +7,12 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>maven-web-application</name>
+	<name>master-card-application</name>
 
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Landmark Technologies</name>
+		<name>HouseHold</name>
 		<url>http://landmarktechnologies.com/</url>
 	</organization>
 
@@ -96,20 +96,20 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://18.222.178.122:8000/repository/tesla-release/</url>
+	      <name>Master-card Releases Nexus Repository</name>
+	      <url>http://3.144.114.123:8081/repository/master-card-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.222.178.122:8000/repository/testla/</url>
+	      <name>Master-card Snapshot Nexus Repository </name>
+	      <url>http://3.144.114.123:8081/repository/master-card-SS/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>Paypal-web-app</finalName>
+		<finalName>master-cardapp</finalName>
 		
 		<plugins>
 			<plugin>
