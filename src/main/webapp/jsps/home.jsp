@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>TrainingInstitute.com- Home Page</title>
 <!--<link href="images/log4.png" rel="icon"> -->
+<!--<link href="images/log4.png" rel="icon"> -->
 </head>
 </head>
 <body>
