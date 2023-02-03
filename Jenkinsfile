@@ -12,6 +12,7 @@ pipeline{
     stage('test&build'){
       steps{
         sh "mvn clean package"
+        //sh "running a unit test"
       }
     }
     stage(codequality){
