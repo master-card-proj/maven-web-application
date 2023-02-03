@@ -1,5 +1,6 @@
 //Jenkins pipeline script
 //Groovy script  
+//grovy
 node 
 {
 def mavenHome = tool name: 'maven3.6.3'
@@ -11,7 +12,6 @@ stage('2. Build')
 {
 sh "${mavenHome}/bin/mvn package -f boa.xml"
 }
-
 stage('3. CodeQuality') 
 {
 sh "${mavenHome}/bin/mvn sonar:sonar"
